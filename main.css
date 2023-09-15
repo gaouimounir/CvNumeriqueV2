@@ -1,10 +1,19 @@
 header{
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
+margin-bottom: 5%;
 }
 
-.titre{
-    color: blue;
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-fade{
+    width: 50%;
+}
+
+.imgSlide{
+    
 }

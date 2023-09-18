@@ -1,15 +1,40 @@
 body{
-    
+   
 }
 
 header{
-width: 100%;
+  position: fixed;
+    width: 100%;
 }
 
-.card{
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(CVwallpaper);
+    color: aliceblue;
+    padding: 1%;
+}
+
+nav img{
+    width: 16%;
+    border-radius: 50%;
+}
+
+.onglet{
+    display: flex;
+    flex-direction: column;
+}
+
+---------
+
+.profil{
+    position: fixed;
     border: solid;
     border-color: slategray;
-    width: 20rem;
+    width: 20%;
+    padding-top: 20%;
 }
 
 main{
@@ -20,21 +45,17 @@ main{
 }
 
 .corpus{
-    width: 90%;
+    margin-top: 20%;
+    margin-left: 40%;
 }
+
+
 
 .list-hard{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 
 
-
-.carousel-fade{
-  
-}
-
-.imgSlide{
-border-radius: 10%;
-}

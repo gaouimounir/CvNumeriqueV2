@@ -1,25 +1,35 @@
 body{
-    display: flex;
-    flex-direction: row;
+    
 }
 
 header{
-display: flex;
-align-items: center;
-flex-direction: column;
-margin-right: 5%;
+width: 100%;
 }
 
 .card{
     border: solid;
-    border-color: darkslategrey;
+    border-color: slategray;
+    width: 20rem;
 }
 
 main{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.corpus{
+    width: 90%;
+}
+
+.list-hard{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 
 .carousel-fade{
   

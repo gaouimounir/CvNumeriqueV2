@@ -10,22 +10,28 @@
 <body>
 
     <header>
-        <div class="card" style="width: 18rem;">
-            <img src="IMG_20190907_212103_763.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">GAOUI Mounir</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">+33 640 47 03 17</li>
-              <li class="list-group-item">mounir.gaoui@outlook.com</li>
-              <li class="list-group-item">Villeneuve d'Ascq, France</li>
+
+          <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Recherche Alternance Développeur Web</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Formations</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+              </li>
             </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
+          </nav>
+          
     </header>
 
     <main>
@@ -53,38 +59,106 @@
           </div> -->
 
 
-          <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading1">First</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading2">Second</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+          <div class="card">
+            <img src="IMG_20190907_212103_763.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">GAOUI Mounir</h5>
+              <p class="card-text">
+                <ul class="presentation">
+                    <li>Développeur passionné, je suis prêt à mettre ma rigueur technique et ma
+                        détermination au service de votre entreprise</li>
+                    <li>Fort de projets et des pratiques concrètes, je suis prêt à relever les défis
+                        techniques et à contribuer activement à vos projets</li>
+                    <li>Ma soif d'apprendre et ma capacité à m'adapter rapidement font de moi un
+                        élément moteur de votre équipe</li>
                 </ul>
-              </li>
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">+33 640 47 03 17</li>
+              <li class="list-group-item">mounir.gaoui@outlook.com</li>
+              <li class="list-group-item">Villeneuve d'Ascq, France</li>
             </ul>
-          </nav>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+
+
+          <section class="corpus">
           <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
+            <h4 id="scrollspyHeading1">Compétence</h4>
+            <br>
+            <section class="list-hard">
+            
+            <ul>
+                <h6>HardSkills</h6>
+                <li>HTML/CSS</li>
+                <li>JavaScript : React</li>
+                <li>Java : Spring Boot</li>
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>Swift, Swift UI</li>
+                <li>Figma</li>
+            </ul>
+            <ul>
+                <h6>SoftSkills</h6>
+                <li>Curieux</li>
+                <li>Impliqué</li>
+                <li>Autonome</li>
+                <li>Dynamique</li>
+                <li>Méthodique</li>
+                <li>Travail d'équipe</li>
+            </ul>
+            </section>
+            <br>
+            <h4 id="scrollspyHeading2">Formations</h4>
+            <h5>Développeur Intégrateur d'Application Web</h5>
+            <h6>Simplon, Haut de France / Mai - Juin 2023</h6>
+            <ul>
+                <li>Réaliser une interface utilisateur web statique et adaptable</li>
+                <li>Créer une base de données dans un environnement headless CMS</li>
+                <li>Développer les composants d'accès aux données dans un environnement headless CMS</li>
+            </ul>
+            <h5>APPLE Foundation Program</h5>
+            <h6>Simplon, Haut de France / Mars - Avril 2023</h6>
+            <ul>
+                <li>Conception d'une application mobile à partir d'une problématique</li>
+                <li>Développement d'une application mobile IOS</li>
+                <li>Gestion de projet et collaboration</li>
+            </ul>
+            <p>Contexte : Application qui lutte contre le gaspillage alimentaire avec des
+                fonctionnalités comme le référencement des nouveaux aliments, implémentation de
+                fonctionnalité native du téléphone (appareil photo), proposition de recette, gestion
+                des dates de péremptions et localisation d'association de don alimentaire
+            </p>
+            <br>
+            <h4 id="scrollspyHeading3">Experiences</h4>
+            <br>
+            <h5>Support Client/HelpDesk</h5>
+            <h6>Orange / Juin 2018 - Juillet 2021</h6>
+            <ul>
+                <li>BtoB / BtoC</li>
+                <li>Coordonner les interlocuteurs</li>
+                <li>Mettre a jour la base de données</li>
+                <li>Assistance en ligne des techniciens</li>
+            </ul>
+            <br>
+            <h5>Technicien Fibre Optique</h5>
+            <h6>Sogetrel / Février 2016 - Juin 2017</h6>
+            <ul>
+                <li>Paramétrage et installation</li>
+                <li>Raccordement, soudure et réflectométrie</li>
+                <li>Analyse, préparation et présentation des travaux</li>
+            </ul>
+
             <h4 id="scrollspyHeading4">Fourth heading</h4>
             <p>...</p>
             <h4 id="scrollspyHeading5">Fifth heading</h4>
             <p>...</p>
           </div>
+          </section>
 
 
     </main>

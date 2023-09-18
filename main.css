@@ -1,19 +1,30 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
 header{
 display: flex;
 align-items: center;
 flex-direction: column;
-margin-bottom: 5%;
+margin-right: 5%;
+}
+
+.card{
+    border: solid;
+    border-color: darkslategrey;
 }
 
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .carousel-fade{
-    width: 50%;
+  
 }
 
 .imgSlide{
-    
+border-radius: 10%;
 }

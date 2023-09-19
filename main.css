@@ -3,7 +3,7 @@ body{
 }
 
 header{
-  position: fixed;
+    position: fixed;
     width: 100%;
 }
 
@@ -18,7 +18,7 @@ nav{
 }
 
 nav img{
-    width: 16%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -27,12 +27,21 @@ nav img{
     flex-direction: column;
 }
 
----------
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
 
 .profil{
     position: fixed;
-    border: solid;
-    border-color: slategray;
     width: 20%;
     padding-top: 20%;
 }

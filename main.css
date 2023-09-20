@@ -10,17 +10,19 @@ nav{
     padding: 1%;
 }
 
-nav img{
+.banniere{
     width: 15%;
     border-radius: 50%;
 }
 
-
 .onglet{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
+
+
 
 
 
@@ -54,13 +56,10 @@ main{
 }
 
 .corpus{
+    
     width: 60%;
     padding-top: 20%;
-    margin-left: 30%;
-}
-
-.corpus img{
-    
+    margin-left: 25%;
 }
 
 .corpus h4{
@@ -68,6 +67,14 @@ main{
     justify-content: center;
 }
 
+.bloc{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc img{
+    border-radius: 50%;
+}
 
 
 .list-hard{

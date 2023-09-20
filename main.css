@@ -40,17 +40,26 @@ nav img{
 
 
 
-.profil{
-    position: fixed;
-    width: 20%;
-    padding-top: 20%;
-}
+
 
 main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+.profil{
+    position: fixed;
+    width: 20%;
+    padding-top: 20%;
+}
+
+.lien{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
 }
 
 .corpus{

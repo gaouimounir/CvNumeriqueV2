@@ -1,3 +1,8 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
 nav{
     position: fixed;
     width: 100%;
@@ -7,17 +12,17 @@ nav{
     justify-content: space-around;
     background-image: url(CVwallpaper);
     color: aliceblue;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 .banniere{
-    width: 15%;
+    width: 10%;
     border-radius: 50%;
 }
 
 .onglet{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     
 }
@@ -42,7 +47,7 @@ main{
 .profil{
     position: fixed;
     width: 20%;
-    padding-top: 20%;
+    padding-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +63,7 @@ main{
 .corpus{
     
     width: 60%;
-    padding-top: 20%;
+    margin-top: 15%;
     margin-left: 25%;
 }
 
@@ -69,10 +74,11 @@ main{
 
 .bloc{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .bloc img{
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -84,4 +90,39 @@ main{
 
 }
 
+.intitule{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media only screen and (max-width : 500px){
+
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(CVwallpaper);
+        color: aliceblue;
+        padding: 0.5%;
+    }
+
+    .profil{
+        
+        width: 20%;
+        padding-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

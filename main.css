@@ -1,5 +1,6 @@
+
+
 header{
-    position: fixed;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -10,7 +11,7 @@ header{
 .titre{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 nav{
@@ -66,18 +67,12 @@ nav{
 
 
 
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
 
 
 
 .corpus{
     
-    margin-top: 15%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,15 +84,13 @@ main{
     justify-content: center;
 }
 
-.bloc{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .bloc img{
     width: 50%;
     border-radius: 50%;
 }
+
 
 
 .intitule{
@@ -106,34 +99,32 @@ main{
   justify-content: space-around;
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
+
+
+@media only screen and (max-width:500px){
+
+    .bann{
+        display: none;
+    }
+#texte1{
+display: none;
+}
+
+#texte2{
+    display: none;
+}
+
+#texte3{
+    display: none;
+}
+
 }
 
 
 
-@media only screen and (max-width : 500px){
 
-    nav{
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        background-image: url(CVwallpaper);
-        color: aliceblue;
-        padding: 0.5%;
-    }
 
-    .profil{
-        position: relative;
-        width: 20%;
-        padding-top: 15%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-}
+
+
+

@@ -1,30 +1,59 @@
 header{
+    position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(CVwallpaper);
+
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav{
-    position: fixed;
+    
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-image: url(CVwallpaper);
     color: aliceblue;
     padding: 0.5%;
 }
 
-.banniere{
+.bann{
     width: 10%;
+    
+}
+
+.photo{
+    width: 100%;
     border-radius: 50%;
 }
 
-.onglet{
+.lien{
     display: flex;
     flex-direction: column;
+}
+
+.lien a {
+    padding-bottom: 3%;
+}
+
+.onglet{
+    padding: 0.2%;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     
+}
+
+.onglet a{
+    color: white
+
 }
 
 
@@ -44,27 +73,15 @@ main{
     width: 100%;
 }
 
-.profil{
-    position: fixed;
-    width: 20%;
-    padding-top: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.lien{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
-
-}
 
 .corpus{
     
-    width: 60%;
     margin-top: 15%;
-    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .corpus h4{
@@ -83,13 +100,6 @@ main{
 }
 
 
-.list-hard{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
 .intitule{
   display: flex;
   flex-direction: row;
@@ -106,6 +116,7 @@ main{
 @media only screen and (max-width : 500px){
 
     nav{
+        position: relative;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -117,7 +128,7 @@ main{
     }
 
     .profil{
-        
+        position: relative;
         width: 20%;
         padding-top: 15%;
         display: flex;

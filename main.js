@@ -8,7 +8,7 @@ var image3 = document.getElementById("image3");
 var texte3 = document.getElementById("texte3");
 
 image1.addEventListener("click", function () {
-  if (texte1.style.display === "none" || texte1.style.display === "") {
+  if (texte1.style.display === "none") {
     texte1.style.display = "block";
   } else {
     texte1.style.display = "none";
